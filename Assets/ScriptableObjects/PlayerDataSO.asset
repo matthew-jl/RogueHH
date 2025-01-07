@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e489037ba17fa94b8495878e957f635, type: 3}
+  m_Name: PlayerDataSO
+  m_EditorClassIdentifier: 
+  playerLevel: 7
+  currentExperience: 0
+  baseHealth: 20
+  baseAttack: 5
+  baseDefense: 5
+  baseCritRate: 5
+  baseCritDamage: 150
+  currentHealth: 332
+  healthLevel: 30
+  attackLevel: 40
+  defenseLevel: 1
+  critRateLevel: 40
+  critDamageLevel: 0
+  maxUpgradeLevel: 45
+  healthUpgradeValue: 10
+  attackUpgradeValue: 2
+  defenseUpgradeValue: 5
+  critRateUpgradeValue: 2
+  critDamageUpgradeValue: 5
+  currentZhen: 405
+  maxFloorUnlocked: 100
+  currentFloor: 100
+  maxFloors: 101
+  OnLevelUp:
+    m_PersistentCalls:
+      m_Calls: []
+  healthScalingFactor: 2
+  attackScalingFactor: 1.5
+  defenseScalingFactor: 1.2
+  critRateScalingFactor: 0.5
+  critDamageScalingFactor: 5
