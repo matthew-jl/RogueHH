@@ -19,7 +19,6 @@ Dive into **RogueHH**, a challenging turn-based roguelike adventure! Explore pro
   - Attack variations with sword trails.
   - Critical hits with visual feedback (screen shake, distinct damage popup).
   - Damage calculation considering enemy defense.
-
     [![Critical Hit GIF Placeholder](./gifs/critical-hit.gif)](./gifs/critical-hit.gif)
 
 - **Grid-Based Movement with A\* Pathfinding:** Navigate the dungeons tile by tile. Hover over a valid tile to see the shortest path highlighted using the A\* algorithm before committing to your move.
@@ -30,8 +29,7 @@ Dive into **RogueHH**, a challenging turn-based roguelike adventure! Explore pro
 
   - Gain Experience (EXP) and Zhen (currency) by defeating enemies.
   - Level up to automatically boost stats and unlock skills.
-  - Spend Zhen in the Upgrade Menu to further customize Health, Attack, Defense, Critical Rate, and Critical Damage.
-
+  - Spend Zhen in the Upgrade Menu to further customize Health, Attack, Defense, Critical Rate, and Critical Damage.  
     [![Upgrade Menu GIF Placeholder](./gifs/upgrade-menu.gif)](./gifs/upgrade-menu.gif)
 
 - **Skill System:** Unlock and utilize powerful active and passive (buff) skills as you level up. Manage cooldowns and buff durations to gain the upper hand.
@@ -39,6 +37,7 @@ Dive into **RogueHH**, a challenging turn-based roguelike adventure! Explore pro
   [![Skill Usage GIF Placeholder](./gifs/skill-lifesteal.gif)](./gifs/skill-lifesteal.gif)
 
 - **Intelligent Enemies:** Enemies exhibit different states (Idle, Alert, Aggro) based on player proximity and line-of-sight. They will pathfind towards the player once alerted.
+
   [![Enemy AI State Change GIF Placeholder](./gifs/enemy-state.gif)](./gifs/enemy-state.gif)
 
 - **Enemy Variety & Scaling:** Encounter Common, Medium, and Elite enemies with distinct appearances and increasing stats. Difficulty ramps up as you descend deeper into the dungeon.
